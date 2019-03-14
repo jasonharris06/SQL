@@ -5,6 +5,7 @@ USE bamazonCustomer_DB;
 CREATE TABLE products(
   id INTEGER(11) AUTO_INCREMENT NOT NULL,
   Product_Name VARCHAR(100) NULL,
+  Product_sales DECIMAL (10,2) DEFAULT 0,
   Department_Name VARCHAR(100) NULL,
   Price FLOAT(11) NULL,
   Stock_Quantity INTEGER(10) NULL,
